@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CarroLuxoTest {
+
     @Test
     void deveRetornarPrecoCarroLuxoComMotor10() {
         Motorizacao motor = new Motor10();
