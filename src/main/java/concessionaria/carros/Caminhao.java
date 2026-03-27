@@ -17,5 +17,5 @@ public class Caminhao extends Veiculo {
     public float calcularPreco() {
         return this.precoBase * this.eixos * (1 + this.motorizacao.percentualAcrescimo());
     }
-    
+
 }
